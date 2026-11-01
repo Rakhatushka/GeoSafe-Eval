@@ -1,0 +1,4 @@
+{
+  "case-34": {"expected_action": "ANSWER", "expected_percentage": 60},
+  "case-92": {"expected_action": "ABSTAIN", "expected_percentage": null}
+}

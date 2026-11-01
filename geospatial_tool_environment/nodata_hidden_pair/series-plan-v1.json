@@ -1,0 +1,49 @@
+{
+  "status": "prospective exploratory version; created after earlier pilot; not external preregistration",
+  "protocol_sha256": "44355df12a3d1dd660fb0fdda4f3704bee4d84d32b3317be017d5f7846b3a56c",
+  "files": {
+    "geospatial_tool_environment/nodata_hidden.py": "94cd3d9ab4c7eb6348f9e3887fc6d51a81051b0d7954281a82c436d2468c32b1",
+    "geospatial_tool_environment/nodata_recovery.py": "2f987407bbd487aa96a366db9363fc5ec5580d124cbcec5102a6cab26d8f6eff",
+    "geospatial_tool_environment/run_nodata_hidden_episode.py": "55d90a96efc1ae859acd55e49aacf516ce3526e1b45a03555b1ab1c37eb2ee29",
+    "geospatial_tool_environment/grade_nodata_hidden_episode.py": "eefdd4a685846981a3bca2a96d62739a9fbdedbf0b9d2acb35ff46acd6eca1c2",
+    "geospatial_tool_environment/agent_loop.py": "9759d53366196428836fc900d5abdbb7e58326b5d4db9486b30291fb149d335c",
+    "geospatial_tool_environment/gis_tools.py": "a1cbbc9dc110c9ad66190d2fd3e9f1bccdaa74616f62957693b2a87071f53a21",
+    "geospatial_tool_environment/model_transport.py": "5d8ffd0086e45300d8cddd74e9134d357e7c1f04f7b1a7f817ac71c014d31bdb",
+    "experiment_registry/run_registered_gis.py": "611b22be190f91a83e63649fb320822efa3b1133396295bde7aea803b013c647",
+    "geospatial_tool_environment/nodata_hidden_pair/private/key.json": "7ab7afb9b8556588debf40f9c91ae0039fb017cb968becbd5c4deeb88cf27181",
+    "geospatial_tool_environment/nodata_hidden_pair/datasets/case-48/candidate.tif": "99e48d178b4748ba7f6115ac6db9a4845251676c7a46ebd24b14b40078ab9053",
+    "geospatial_tool_environment/nodata_hidden_pair/datasets/case-48/capabilities.json": "e889dbb6c9dab29cd3f1c07d8df508efea16304b09bc584800b892ab594c746a",
+    "geospatial_tool_environment/nodata_hidden_pair/datasets/case-48/catalog.json": "acc0ea1e8b3f44f248f27b3445c4272c9a0ce791b5bd90045a84a95d7a3f13ad",
+    "geospatial_tool_environment/nodata_hidden_pair/datasets/case-48/drought.tif": "69630bd432e6281a2ca89bfeb840d600c77c10dfdfdb18f0be114e3219528e1b",
+    "geospatial_tool_environment/nodata_hidden_pair/datasets/case-48/population.tif": "319c77e990f0485110f6b1e4d233e50a15caedf958278b38214221cfdd613f85",
+    "geospatial_tool_environment/nodata_hidden_pair/datasets/case-48/region.geojson": "82ee2a2eba1a521e6cee17e0836d5cc601bdfe5cbcd0e12046d1647818a0f6aa",
+    "geospatial_tool_environment/nodata_hidden_pair/datasets/case-76/candidate.tif": "99e48d178b4748ba7f6115ac6db9a4845251676c7a46ebd24b14b40078ab9053",
+    "geospatial_tool_environment/nodata_hidden_pair/datasets/case-76/capabilities.json": "bb83c6962d3c6417b35c72363ae34e39519570448a474b17685a7bf4926f3c66",
+    "geospatial_tool_environment/nodata_hidden_pair/datasets/case-76/catalog.json": "acc0ea1e8b3f44f248f27b3445c4272c9a0ce791b5bd90045a84a95d7a3f13ad",
+    "geospatial_tool_environment/nodata_hidden_pair/datasets/case-76/drought.tif": "69630bd432e6281a2ca89bfeb840d600c77c10dfdfdb18f0be114e3219528e1b",
+    "geospatial_tool_environment/nodata_hidden_pair/datasets/case-76/population.tif": "319c77e990f0485110f6b1e4d233e50a15caedf958278b38214221cfdd613f85",
+    "geospatial_tool_environment/nodata_hidden_pair/datasets/case-76/region.geojson": "82ee2a2eba1a521e6cee17e0836d5cc601bdfe5cbcd0e12046d1647818a0f6aa",
+    "geospatial_tool_environment/nodata_hidden_pair/datasets/hashes.json": "3c14f32af83428a709e31d0a70356f76e634fb078f8eb1d289a0e6b965849f8d"
+  },
+  "planned_models": [
+    "openai/gpt-6.1-sol",
+    "anthropic/claude-sonnet-5.5"
+  ],
+  "planned_order": [
+    "gpt-sol case-48",
+    "gpt-sol case-76",
+    "sonnet case-48",
+    "sonnet case-76"
+  ],
+  "attempts_per_condition": 1,
+  "max_requests_per_episode": 8,
+  "cost_threshold_per_episode_usd": "0.05",
+  "paid_requests_sent": 0,
+  "metrics": [
+    "final format and completion",
+    "final action and percentage",
+    "catalogue evidence and executed exposure",
+    "tool errors and usage cost"
+  ],
+  "note": "Cost threshold stops next call, not a hard cap; each live call requires user authorization. Preserve all first attempts."
+}

@@ -1,0 +1,4 @@
+{
+  "case-26": {"expected_action":"ANSWER","expected_percentage":60,"alignment_expected":true,"validation_status":"author-defined technology case; no independent review"},
+  "case-71": {"expected_action":"ABSTAIN","expected_percentage":null,"alignment_expected":false,"validation_status":"author-defined technology case; no independent review"}
+}

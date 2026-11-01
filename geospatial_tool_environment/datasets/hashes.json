@@ -1,0 +1,14 @@
+{
+  "case-17/drought.tif": "69630bd432e6281a2ca89bfeb840d600c77c10dfdfdb18f0be114e3219528e1b",
+  "case-17/population.tif": "99e48d178b4748ba7f6115ac6db9a4845251676c7a46ebd24b14b40078ab9053",
+  "case-17/region.geojson": "82ee2a2eba1a521e6cee17e0836d5cc601bdfe5cbcd0e12046d1647818a0f6aa",
+  "case-42/drought.tif": "63a251fe345fa6d5ec113b87526f8d13aaa3659aa363a26846ddd4bc2ec927cd",
+  "case-42/population.tif": "99e48d178b4748ba7f6115ac6db9a4845251676c7a46ebd24b14b40078ab9053",
+  "case-42/region.geojson": "82ee2a2eba1a521e6cee17e0836d5cc601bdfe5cbcd0e12046d1647818a0f6aa",
+  "case-63/drought.tif": "69630bd432e6281a2ca89bfeb840d600c77c10dfdfdb18f0be114e3219528e1b",
+  "case-63/population.tif": "319c77e990f0485110f6b1e4d233e50a15caedf958278b38214221cfdd613f85",
+  "case-63/region.geojson": "82ee2a2eba1a521e6cee17e0836d5cc601bdfe5cbcd0e12046d1647818a0f6aa",
+  "case-85/drought.tif": "69630bd432e6281a2ca89bfeb840d600c77c10dfdfdb18f0be114e3219528e1b",
+  "case-85/population.tif": "9daf91fb539f18ef1c75190f998e431a73802724e6f170ab4e3ba42a4e6dfc51",
+  "case-85/region.geojson": "82ee2a2eba1a521e6cee17e0836d5cc601bdfe5cbcd0e12046d1647818a0f6aa"
+}

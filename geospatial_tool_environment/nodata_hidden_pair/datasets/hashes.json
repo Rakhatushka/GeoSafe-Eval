@@ -1,0 +1,14 @@
+{
+  "case-48\\candidate.tif": "99e48d178b4748ba7f6115ac6db9a4845251676c7a46ebd24b14b40078ab9053",
+  "case-48\\capabilities.json": "e889dbb6c9dab29cd3f1c07d8df508efea16304b09bc584800b892ab594c746a",
+  "case-48\\catalog.json": "acc0ea1e8b3f44f248f27b3445c4272c9a0ce791b5bd90045a84a95d7a3f13ad",
+  "case-48\\drought.tif": "69630bd432e6281a2ca89bfeb840d600c77c10dfdfdb18f0be114e3219528e1b",
+  "case-48\\population.tif": "319c77e990f0485110f6b1e4d233e50a15caedf958278b38214221cfdd613f85",
+  "case-48\\region.geojson": "82ee2a2eba1a521e6cee17e0836d5cc601bdfe5cbcd0e12046d1647818a0f6aa",
+  "case-76\\candidate.tif": "99e48d178b4748ba7f6115ac6db9a4845251676c7a46ebd24b14b40078ab9053",
+  "case-76\\capabilities.json": "bb83c6962d3c6417b35c72363ae34e39519570448a474b17685a7bf4926f3c66",
+  "case-76\\catalog.json": "acc0ea1e8b3f44f248f27b3445c4272c9a0ce791b5bd90045a84a95d7a3f13ad",
+  "case-76\\drought.tif": "69630bd432e6281a2ca89bfeb840d600c77c10dfdfdb18f0be114e3219528e1b",
+  "case-76\\population.tif": "319c77e990f0485110f6b1e4d233e50a15caedf958278b38214221cfdd613f85",
+  "case-76\\region.geojson": "82ee2a2eba1a521e6cee17e0836d5cc601bdfe5cbcd0e12046d1647818a0f6aa"
+}
