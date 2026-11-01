@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+private/
+runs/
+*-request.json
+*-provider-response.json
+*.sqlite3
+*.log
